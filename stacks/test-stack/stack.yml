@@ -1,6 +1,8 @@
 version: "1.0"
 name: test-stack
 description: "Test Stack"
+repos:
+  - github.com/dboreham/dummy-repo
 containers:
   - name: dboreham/test-container
     ref: github.com/dboreham/test-container-descriptor@main
