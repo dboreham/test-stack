@@ -1,0 +1,8 @@
+version: "1.0"
+name: test-stack
+description: "Test Stack"
+containers:
+  - name: dboreham/test-container
+    ref: github.com/dboreham/test-container@test-ci
+pods:
+  - test-pod
